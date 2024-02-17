@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Got a kill!",
+        "description": "Congratulations! You got a kill!",
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "goal"
+    },
+    "parent": "cootshk:headless/headless",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                }
+            }
+        }
+    }
+}

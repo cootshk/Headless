@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": "Elimination",
+        "description": "Will you revive them, or use their power?",
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "challenge"
+    },
+    "parent": "cootshk:headless/kill",
+    "criteria": {
+        "final": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "headless_Lives": 1
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

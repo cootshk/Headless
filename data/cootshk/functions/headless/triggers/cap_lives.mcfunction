@@ -1,0 +1,2 @@
+tellraw @s ["",{"text": "[","color": "yellow"},{"text": "Headless", "color": "gold"},{"text": "]","color": "yellow"}," ", {"text":"You have too many lives!","color":"red"}]
+execute store result score @s headless_Lives run scoreboard players get MaxLives headless_Settings

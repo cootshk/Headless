@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"pack_format": 26,
+		"description": "Headless SMP Datapack",
+		"supported_formats": [16,26]
+	}
+}

@@ -1,6 +1,6 @@
 
 # Debug mode is off
-execute if score Debug headless_Settings matches 0 run return 0
+execute unless score Debug headless_Settings matches 1 run return 0
 
 # Now, debug mode must be on
 #execute as Cootshk run function cootshk:headless/debug/gamemode {player:Cootshk}

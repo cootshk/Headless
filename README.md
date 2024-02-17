@@ -25,11 +25,11 @@ If you manage to eliminate a player, then they will be forced into spectator mod
 
 You can also craft a new life, using this recipe:
 
-(placeholder for image)
+[![recipe](docs/images/extra_life_crafting_recipe.png)](docs/images/extra_life_crafting_recipe.png)
 
-## Configuration
+## [Configuration](docs/configuration.md)
 
-(placeholder, documentation coming soon tm)
+Please read the [documentation](docs/configuration.md)
 
 ## Contributing
 
@@ -37,7 +37,7 @@ Feel free to open a pull request with any changes or bux fixes
 
 ## License
 
-This datapack is licensed under the GNU GPL v3 License. Please see the LICENSE.md file for more information.
+This datapack is licensed under the GNU GPL v3 License. Please see the [LICENSE.md](LICENSE.md) file for more information.
 
 ## Acknowledgements
 

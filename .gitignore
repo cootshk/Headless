@@ -1,3 +1,4 @@
 .vscode
 .github
 .DS_Store
+*.zip

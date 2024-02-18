@@ -3,7 +3,7 @@
         "requirement": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
-                "player": [
+                "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
@@ -16,7 +16,7 @@
                         "entity": "this",
                         "scores": {
                             "headless_Lives": {
-                                "min": 2
+                                "min": 
                             }
                         }
                     }

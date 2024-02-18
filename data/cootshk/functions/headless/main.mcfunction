@@ -22,7 +22,9 @@ execute as @a if score @s headless_Lives matches ..0 run scoreboard players set 
 execute as @a if score @s headless_OnDeath matches 1 run function cootshk:headless/triggers/ondeath
 
 # 2 Kills = +1 Life
-execute as @a if score @s headless_OnKill matches 2.. run function cootshk:headless/triggers/onkill
+#execute as @a if score @s headless_OnKill matches 2.. run function cootshk:headless/triggers/onkill
+# This has been moved to the advancements section
+# see advancements/twokills.json
 
 # Crafting a life
 execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:knowledge_book",Slot:-106b}]}] run function cootshk:headless/triggers/craftable_lives

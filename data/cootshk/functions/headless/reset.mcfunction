@@ -26,6 +26,7 @@ scoreboard objectives add headless_AllowDupedHeads trigger "Prevent heads from b
 
 # Trigger Objectives
 scoreboard objectives add Reset_Headless trigger "Reset Lives"
+scoreboard objectives add GiveLife trigger "Give a life"
 
 
 team add headless_0

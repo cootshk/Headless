@@ -29,9 +29,6 @@ execute as @a if score @s headless_OnDeath matches 1 run function cootshk:headle
 # Crafting a life
 execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:knowledge_book",Slot:-106b}]}] run function cootshk:headless/triggers/craftable_lives
 
-# Disable charged creepers
-#execute as @e[type=minecraft:creeper,nbt={powered:1b}] at @s run function cootshk:headless/disable_charged_creeper
-
 # Reset damage taken
 execute as @a run scoreboard players set @s headless_DamageTaken 0
 
@@ -48,6 +45,9 @@ execute as @a unless score @s headless_AllowNonSurvivalMode matches 1 if score @
 # Assign Teams based on Life count
 function cootshk:headless/utils/assign_teams
 
+# Giving lives
+scoreboard players enable @a GiveLife
+execute as @a if score @s GiveLife matches 1 run function cootshk:headless/triggers/give_life
 
 # Clear Counterfit
 execute as @a unless score @s headless_Lives matches 0 run function cootshk:headless/macros/clear_counterfit_heads with entity @s

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:\"SaltyHxH\"}"
+        },
+        "title": "Pacifist",
+        "description": "Obtain a life without killing anyone",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "cootshk:headless/headless",
+    "criteria": {
+        "craft_life": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:knowledge_book"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

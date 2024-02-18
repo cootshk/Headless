@@ -16,15 +16,7 @@
                         "entity": "this",
                         "scores": {
                             "headless_Lives": {
-                                "min": 1,
-                                "max": {
-                                    "type": "minecraft:score",
-                                    "target": {
-                                        "type": "minecraft:fixed",
-                                        "name": "MaxLives"
-                                    },
-                                    "score": "headless_Settings"
-                                }
+                                "min": 2
                             }
                         }
                     }
